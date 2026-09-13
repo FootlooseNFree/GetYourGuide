@@ -34,8 +34,7 @@ Determine the `llm_clickability_score` based on conversion/trust impact:
 ### OUTPUT FORMAT:
 Respond **ONLY** with a valid JSON object matching this schema. **DO NOT** include any additional text or markdown elements besides the JSON structure:
 {
-  "example_id": "Same as input data e.g. activity_title_en_de",
-  "model_error_categories": ["Category1", "Category2"],
+  "model_evaluation_error_categories": ["Category1", "Category2"],
   "model_clickability_score": "Score",
   "model_reasoning": "Detailed linguistic breakdown explaining errors, referencing style guide rules if violated, and justifying the clickability score.",
   "model_localization": "Natural, native German gold standard title"
